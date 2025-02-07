@@ -281,7 +281,7 @@ img.nav-toggler.hamburger-icon {
     right: -100%;
     top: 0;
     bottom: 0;
-    z-index: 9;
+/*     z-index: 9; */
     /* background: #fdfcee; */
     background: #fdfcee;
     transition: .7s ease-in-out;
@@ -543,7 +543,7 @@ a.navbar-call-btn:hover {
 }
 
 .banner-content .banner-pricing {
-    display: flex;
+/*     display: flex; */
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -1428,7 +1428,6 @@ button.amenity-view-btn {
 .media-partner-rmw p {
     margin: 0;
     padding-bottom: 30px;
-    font-size: 14px;
     color: #fff;
     letter-spacing: 1px;
     font-size: 12px;
@@ -1659,7 +1658,7 @@ button.amenity-view-btn {
     }
 
     .menu_section ul li {
-        padding: 10px 0 10px;
+        padding: 10px 0;
     }
 
     .menu_section ul li a {
@@ -1711,7 +1710,12 @@ button.amenity-view-btn {
     }
 
     .header .project-logo {
-        width: 100px;
+        width: 90px;
+        position: relative;
+        left: unset;
+        top: unset;
+        transform: unset;
+        display: none;
     }
 
     .header nav.navbar {
@@ -1918,7 +1922,7 @@ button.amenity-view-btn {
     }
 
     .highlight-details {
-        padding: 10px 10px;
+        padding: 10px;
     }
 
     .highlight-section::after {
@@ -1963,7 +1967,6 @@ button.amenity-view-btn {
     }
 
     .amemity-icons-details-section .nav-pills li {
-        margin-bottom: 15px;
         width: 48%;
         margin-bottom: 0;
     }
@@ -2160,7 +2163,7 @@ button.amenity-view-btn {
 
     .about-builder .form-control {
         margin-bottom: 15px;
-        padding: 10px 10px;
+        padding: 10px;
     }
 
     .footer .project-light-logo img {
@@ -2267,9 +2270,7 @@ button.amenity-view-btn {
         background: var(--green-color);
         padding: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        border-radius: 5px;
         width: 100%;
-        border-radius: 0;
     }
 
     .mobile-section.show {
@@ -2280,8 +2281,6 @@ button.amenity-view-btn {
     .mobile-section a {
         color: #fff;
         text-decoration: none;
-        font-size: 15px;
-        width: 100%;
         text-align: center;
         width: 32%;
         display: inline-block;
@@ -2296,15 +2295,6 @@ button.amenity-view-btn {
         min-height: 87px;
     }
 
-    .header .project-logo {
-        width: 90px;
-        position: relative;
-        left: unset;
-        top: unset;
-        transform: unset;
-        display: none;
-    }
-
     .navbar.fixed .project-logo {
         width: 90px;
     }
@@ -2313,9 +2303,9 @@ button.amenity-view-btn {
         display: none !important;
     }
 
-    .builder-projects-details {
+/*     .builder-projects-details {
         width: 100%;
-    }
+    } */
 
     .builder-projects-details p {
         width: 40%;
