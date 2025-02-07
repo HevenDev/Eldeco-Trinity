@@ -253,14 +253,11 @@ img.nav-toggler.hamburger-icon {
 
 .closemenu {
     display: none;
+    width: 18px;
 }
 
 .openmenu {
     width: 30px;
-}
-
-.closemenu {
-    width: 18px;
 }
 
 /*.mobile-open{/~ overflow: hidden; ~/
@@ -281,8 +278,6 @@ img.nav-toggler.hamburger-icon {
     right: -100%;
     top: 0;
     bottom: 0;
-/*     z-index: 9; */
-    /* background: #fdfcee; */
     background: #fdfcee;
     transition: .7s ease-in-out;
     height: 100%;
@@ -290,7 +285,8 @@ img.nav-toggler.hamburger-icon {
     border-left: 1px solid #fdfcee;
     overflow-y: scroll !important;
     overflow-x: hidden !important;
-    z-index: 9999999;
+    z-index: 9;
+
 }
 
 .menu_logo img {
@@ -402,22 +398,6 @@ img.nav-toggler.hamburger-icon {
 
 .mobile-open .mobile-trigger i {
     background-color: transparent
-}
-
-.menu_section {
-    position: fixed;
-    max-width: 510px;
-    right: -100%;
-    top: 0;
-    bottom: 0;
-    z-index: 9;
-    background: #fdfcee;
-    transition: .7s ease-in-out;
-    height: 100%;
-    width: 100%;
-    border-left: 1px solid #fdfcee;
-    overflow-y: scroll !important;
-    overflow-x: hidden !important;
 }
 
 .mobile-open .menu_section {
