@@ -1338,6 +1338,8 @@ button.amenity-view-btn {
 /* Footer Section */
 .footer {
     position: relative;
+    background-color: #fdfcee;
+    text-align: center;
 }
 
 .footer::before {
@@ -1350,12 +1352,6 @@ button.amenity-view-btn {
     background: url('../images/leaf-vector.png') no-repeat;
     background-size: 320px;
     opacity: 0.7;
-}
-
-.footer {
-    /* background: var(--green-color); */
-    background-color: #fdfcee;
-    text-align: center;
 }
 
 .footer .project-light-logo img {
@@ -1700,6 +1696,7 @@ button.amenity-view-btn {
 
     .header nav.navbar {
         padding: 5px 20px;
+        min-height: 87px;
     }
 
     .banner-content .banner-typology h3 {
@@ -1715,7 +1712,11 @@ button.amenity-view-btn {
     }
 
     .banner-content .starting-price {
-        letter-spacing: 0.5px;
+        background: #595a54;
+        padding: 15px 0px;
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 2px;
     }
 
     .banner-content .banner-pricing p {
@@ -1763,14 +1764,6 @@ button.amenity-view-btn {
         font-weight: 400;
     }
 
-    .banner-content .starting-price {
-        background: #595a54;
-        padding: 15px 0px;
-        font-weight: 400;
-        font-size: 12px;
-        letter-spacing: 2px;
-    }
-
     .banner-content .status {
         background: #595A54;
         font-size: 12px;
@@ -1804,9 +1797,6 @@ button.amenity-view-btn {
 
     .overview-left-view p {
         text-align: center;
-    }
-
-    .overview-left-view p {
         line-height: 22px;
         text-align: justify;
     }
@@ -1832,8 +1822,10 @@ button.amenity-view-btn {
     }
 
     .heading-section .title-head {
+        line-height: 32px;
         font-size: 18px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
     }
 
     .overview-query-btn img {
@@ -1871,13 +1863,6 @@ button.amenity-view-btn {
 
     .p-100 {
         padding: 40px 0px 10px;
-    }
-
-    .heading-section .title-head {
-        line-height: 32px;
-        font-size: 18px;
-        letter-spacing: 1px;
-        margin-bottom: 25px;
     }
 
     .highlight-section ul#pills-tab {
@@ -2025,16 +2010,12 @@ button.amenity-view-btn {
     }
 
     .gallery-images-section {
-        padding-top: 25px;
-    }
-
-    .gallery-images-section {
-        padding: 10px;
+        padding: 25px 10px 10px;
         flex-wrap: wrap;
     }
-
     .gallery-images-section .gal-image {
         width: 48%;
+        height: 100px;
     }
 
     .abt-builder-sec::before {
@@ -2122,6 +2103,7 @@ button.amenity-view-btn {
     .builder-projects-details p {
         letter-spacing: 1px;
         font-size: 14px;
+         width: 40%;
     }
 
     .builder-projects-details p span {
@@ -2271,24 +2253,12 @@ button.amenity-view-btn {
         border-right: 1px solid
     }
 
-    .header nav.navbar {
-        min-height: 87px;
-    }
-
     .navbar.fixed .project-logo {
         width: 90px;
     }
 
     .banner-call-section {
         display: none !important;
-    }
-
-/*     .builder-projects-details {
-        width: 100%;
-    } */
-
-    .builder-projects-details p {
-        width: 40%;
     }
 
     .footer::before {
@@ -2298,11 +2268,7 @@ button.amenity-view-btn {
         height: 45%;
         background-size: 240px;
         opacity: 0.8;
-    }
-    .gallery-images-section .gal-image {
-        width: 48%;
-        height: 100px;
-    }    
+    }   
 
 }
 .loader{
